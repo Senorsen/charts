@@ -8,6 +8,11 @@ image:
   # Overrides the image tag whose default is the chart version.
   tag: latest
 
+imagePullSecrets: []
+# For example:
+# imagePullSecrets:
+#   - name: registry-credentials
+
 server:
   workers: 2
   node:
