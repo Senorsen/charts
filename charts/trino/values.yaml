@@ -11,7 +11,7 @@ image:
 imagePullSecrets: []
 # For example:
 # imagePullSecrets:
-#   - name: registry-credentials
+#   - name: pull-secret
 
 server:
   workers: 2
